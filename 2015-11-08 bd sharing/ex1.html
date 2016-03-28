@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title>Example 1</title>
+	<style type="text/css">
+		span, a {
+			color: red;
+		}
+
+		#idSel {
+			font-weight:bold;
+		}
+
+		.classSel {
+			font-size: 50px;
+		}
+
+		p[align] {
+			color: blue;
+		}
+
+		p[align='right'] {
+			color: yellow;
+		}
+
+		div a {
+			background-color: green;
+			color: white;
+		}
+		
+	</style>
+</head>
+<body>
+	<span>I am element selector</span>
+	<a href="http://www.w3school.com.cn/css/css_intro.asp">I am element selector too.</a>
+	<p id="idSel">I am id selector</p>
+	<p class="classSel">I am Big class selector</p>
+	<p align="center">我是属性选择器，有align属性的才会被选中，哈哈哈</p>
+	<p align="right">我是属性选择器，有align属性的才会被选中，哈哈哈</p>
+
+	<div>
+		<a href="http://www.baidu.com">我是后代选择器，只有div的a后代，才会被我选中和影响</a>
+	</div>
+
+</body>
+</html>
